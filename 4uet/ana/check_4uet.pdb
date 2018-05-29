@@ -1,0 +1,52 @@
+MODEL    1
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+HETATM    1 CH   XXX X   1      59.684  18.651  58.886  1.00  0.00           C
+HETATM    2 CH   XXX X   2      54.586  19.689  82.466  1.00  0.00           C
+HETATM    3 CH   XXX X   3      67.187  30.871  64.138  1.00  0.00           C
+HETATM    4 CH   XXX X   4      54.586  19.689  82.466  1.00  0.00           C
+HETATM    5 CH   XXX X   5      60.818  10.798  77.440  1.00  0.00           C
+HETATM    6 CH   XXX X   6      72.804  23.506  62.660  1.00  0.00           C
+HETATM    7 CH   XXX X   7      59.684  18.651  58.886  1.00  0.00           C
+HETATM    8 CH   XXX X   8      67.187  30.871  64.138  1.00  0.00           C
+HETATM    9 CH   XXX X   9      72.804  23.506  62.660  1.00  0.00           C
+HETATM   10 CH   XXX X  10      67.187  30.871  64.138  1.00  0.00           C
+HETATM   11 CH   XXX X  11      54.586  19.689  82.466  1.00  0.00           C
+HETATM   12 CH   XXX X  12      72.804  23.506  62.660  1.00  0.00           C
+HETATM   13 CH   XXX X  13      60.818  10.798  77.440  1.00  0.00           C
+HETATM   14 CH   XXX X  14      54.586  19.689  82.466  1.00  0.00           C
+HETATM   15 CH   XXX X  15      52.788   9.305  68.891  1.00  0.00           C
+HETATM   16 CH   XXX X  16      54.586  19.689  82.466  1.00  0.00           C
+HETATM   17 CH   XXX X  17      59.684  18.651  58.886  1.00  0.00           C
+HETATM   18 CH   XXX X  18      52.788   9.305  68.891  1.00  0.00           C
+HETATM   19 CH   XXX X  19      60.818  10.798  77.440  1.00  0.00           C
+HETATM   20 CH   XXX X  20      52.788   9.305  68.891  1.00  0.00           C
+HETATM   21 CH   XXX X  21      72.804  23.506  62.660  1.00  0.00           C
+HETATM   22 CH   XXX X  22      52.788   9.305  68.891  1.00  0.00           C
+HETATM   23 CH   XXX X  23      59.684  18.651  58.886  1.00  0.00           C
+HETATM   24 CH   XXX X  24      72.804  23.506  62.660  1.00  0.00           C
+CONECT    1    2    3
+CONECT    2    1    3
+CONECT    3    1    2
+CONECT    4    5    6
+CONECT    5    4    6
+CONECT    6    4    5
+CONECT    7    8    9
+CONECT    8    7    9
+CONECT    9    7    8
+CONECT   10   11   12
+CONECT   11   10   12
+CONECT   12   10   11
+CONECT   13   14   15
+CONECT   14   13   15
+CONECT   15   13   14
+CONECT   16   17   18
+CONECT   17   16   18
+CONECT   18   16   17
+CONECT   19   20   21
+CONECT   20   19   21
+CONECT   21   19   20
+CONECT   22   23   24
+CONECT   23   22   24
+CONECT   24   22   23
+ENDMDL
+END
