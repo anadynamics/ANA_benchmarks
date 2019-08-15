@@ -1,0 +1,40 @@
+
+If you use POVME in your research, please cite the following reference:
+  Durrant, J. D., C. A. de Oliveira, et al. (2011). "POVME: An algorithm
+  for measuring binding-pocket volumes." J Mol Graph Model 29(5): 773-776.
+
+Parameters:
+	OUTPUTFILENAMEPREFIX: ./frm_out/POVME_
+	POINTSINCLUDEREGIONS: 
+	NUMFRAMES: -1
+	OutputFrameFilenamePrefix: ./frm_out/POVME_frameInfo/POVME_
+	MAXGROWITERATIONS: 10000000000.0
+	GRIDSPACING: 1.0
+	NUMPROCESSORS: 4
+	DISTANCECUTOFF: 1.09
+	COMPRESSOUTPUT: False
+	PDBFILENAME: ../1prn.pdb
+	CONVEXHULLEXCLUSION: none
+	SAVEREGIONS: False
+	CONTIGUOUSPOINTSCRITERIA: 3
+	OUTPUTBASENAME: POVME_
+
+Reading frames from ../1prn.pdb
+	Further processing frame 1
+
+
+Generating the pocket-encompassing point field
+
+Saving the point field as a PDB and NPY file
+	Point field saved to ./frm_out/POVME_frameInfo/POVME_inclusion.pdb to permit visualization
+	Point field saved to ./frm_out/POVME_frameInfo/POVME_inclusion.npy to optionally load for the volume calculation
+
+Calculating the pocket volume of each frame
+	Frame 1:  Volume 5952.0 A^3  Surf. A. 2192.0 A^2
+
+FRAME        | VOLUME (A^3) | SURF. A. (A^2)
+-------------+--------------+----------------
+1            |   5952.0     |   2192.0
+
+Execution time = 24.777821064 sec
+

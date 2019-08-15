@@ -1,1 +1,1 @@
-time python2.7 POVME_2_0_1/POVME2.py povme.ini 
+time python /usr/local/POVME/POVME3.py povme.ini 
