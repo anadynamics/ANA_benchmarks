@@ -30,11 +30,11 @@ Saving the point field as a PDB and NPY file
 	Point field saved to ./frm_out/POVME_frameInfo/POVME_inclusion.npy to optionally load for the volume calculation
 
 Calculating the pocket volume of each frame
-	Frame 1:  Volume 5952.0 A^3  Surf. A. 2192.0 A^2
+	Frame 1:  Volume 4290.0 A^3  Surf. A. 1807.0 A^2
 
 FRAME        | VOLUME (A^3) | SURF. A. (A^2)
 -------------+--------------+----------------
-1            |   5952.0     |   2192.0
+1            |   4290.0     |   1807.0
 
-Execution time = 24.777821064 sec
+Execution time = 21.6364572048 sec
 
