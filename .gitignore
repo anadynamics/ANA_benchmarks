@@ -3,6 +3,6 @@ snapshots
 *nc
 *trr
 *xtc
+*pdb
 POVME_2_0_1
-salida*pdb
-mdpout*pdb
+.ipynb_checkpoints*
